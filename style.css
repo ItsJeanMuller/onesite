@@ -1,0 +1,13 @@
+.gif-container {
+    position: relative;
+    display: inline-block;
+   }
+   .animated-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+   }
+   .gif-container:hover .animated-gif {
+    opacity: 1;
+   }
